@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Juan Santana | Software Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is ',
+  name: 'Juan Santana',
+  subtitle: 'An Aspiring Software Engineer',
+  cta: 'Get to know me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: '    Hi, I’m Juan Santana and I graduated from Boston University in May 2020 with a degree in Computer Science. My interests are in Full Stack Engineering (or Software Engineering in general). I love to create web applications with slick and clean user experiences and well designed backends.',
+  paragraphTwo: '    Back in school, I alongside three of my class peers designed and built a web application, Tune My Ride where the user can generate a Spotify playlist based of their music preferences and the duration of their start and destination on the Boston subway system, MBTA. It was built using Javascript, NodeJS, and API calls to Spotify and the MBTA database. To look at more course group projects I have done in the past, please checkout my GitHub linked at the bottom of this page. ',
+  paragraphThree: 'I’m looking to begin my professional career as soon as possible. If you like what you see and believe that I am a fit candidate for your job then please check out my resume and contact me below.',
+  resume: 'https://docs.google.com/document/d/1CLIJDUMzAW8joHoBXr5V0sxGGPnYBXKJhTjuPlkhPTo/edit?usp=sharing', 
 };
 
 // PROJECTS DATA
@@ -29,29 +29,34 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'E-Commerce Amazon Clone Project',
+    info: 'Currently, I am planning on creating an e-Commerce site based off of Amazon using the MERN (MongoDB, Express, React/Redux, NodeJS) tech stack which will include features such as...',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/jsantana21/E-Commerce-Amazon-Clone-Project',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.jpg',
+    title: 'Task List Manager Web Application Project',
+    info: 'I implemented a simple task list application using the MEAN (MongoDB, Express, Angular, NodeJS) tech stack and also includes a user authentication feature.',
+    info2: 'This project demonstrates understanding of CRUD operation, building an API, and other essential features needed in any web application.',
+    url: 'https://github.com/jsantana21/Task-List-Manager-Application',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.jpg',
+    title: 'Sudoku Game / Puzzle Solver Project',
+    info: 'I developed a generated user interface where the user can play a game of Sudoku using Python’s pygame module.js',
+    info2: 'Alongside the GUI, I implemented a solver algorithm that can solve any solvable 9x9 Sudoku puzzle by use of the backtracking algorithm.',
+    url: 'https://github.com/jsantana21/Sudoku-Puzzle-Game-and-Solver', 
+  },
+  {
+    id: nanoid(),
+    img: 'project3.jpg',
+    title: 'Sorting Algorithm Visualizer Project',
+    info: 'I created an algorithm that visually shows how sorting algorithms such as bubble, quick, merge, and insertion sort go about sorting a random array of data value using Python’s tkinter module.',
+    info2: 'I made this project to demonstrate proficiency in coding sorting algorithms often seen in technical interviews.',
+    url: 'https://github.com/jsantana21/Sorting-Algorithm-Visualizer', 
   },
 ];
 
@@ -59,7 +64,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'juansantanajunior@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +72,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/juan-santana-2063b0124',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jsantana21/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
