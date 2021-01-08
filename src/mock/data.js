@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '    Hi, I’m Juan Santana and I graduated from Boston University in May 2020 with a degree in Computer Science. My interests are in Full Stack Engineering (or Software Engineering in general). I love to create web applications with slick and clean user experiences and well designed backends.',
   paragraphTwo: '    Back in school, I alongside three of my class peers designed and built a web application, Tune My Ride where the user can generate a Spotify playlist based of their music preferences and the duration of their start and destination on the Boston subway system, MBTA. It was built using Javascript, NodeJS, and API calls to Spotify and the MBTA database. To look at more course group projects I have done in the past, please checkout my GitHub linked at the bottom of this page. ',
   paragraphThree: 'I’m looking to begin my professional career as soon as possible. If you like what you see and believe that I am a fit candidate for your job then please check out my resume and contact me below.',
-  resume: 'https://docs.google.com/document/d/1CLIJDUMzAW8joHoBXr5V0sxGGPnYBXKJhTjuPlkhPTo/edit?usp=sharing', 
+  resume: 'https://drive.google.com/file/d/1QSvYXxwt937KhwStmqnCJ5sYn5ME9Q81/view?usp=sharing', 
 };
 
 // PROJECTS DATA
