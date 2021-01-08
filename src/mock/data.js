@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'E-Commerce Amazon Clone Project',
-    info: 'Currently, I am planning on creating an e-Commerce site based off of Amazon using the MERN (MongoDB, Express, React/Redux, NodeJS) tech stack which will include features such as...',
+    info: 'Currently, I am planning on creating an e-Commerce site based off of Amazon using using React and Javascript in the frontend and Commerce.js as a third party API for the backend include features such as product list and details, shopping cart, checking out, and payment using Stripe.',
     info2: '',
     url: 'https://github.com/jsantana21/E-Commerce-Amazon-Clone-Project',
   },
