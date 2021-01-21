@@ -21,19 +21,19 @@ export const aboutData = {
   paragraphOne: '    Hi, I’m Juan Santana and I graduated from Boston University in May 2020 with a degree in Computer Science. My interests are in Full Stack Engineering (or Software Engineering in general). I love to create web applications with slick and clean user experiences and well designed backends.',
   paragraphTwo: '    Back in school, I alongside three of my class peers designed and built a web application, Tune My Ride where the user can generate a Spotify playlist based of their music preferences and the duration of their start and destination on the Boston subway system, MBTA. It was built using Javascript, NodeJS, and API calls to Spotify and the MBTA database. To look at more course group projects I have done in the past, please checkout my GitHub linked at the bottom of this page. ',
   paragraphThree: 'I’m looking to begin my professional career as soon as possible. If you like what you see and believe that I am a fit candidate for your job then please check out my resume and contact me below.',
-  resume: 'https://drive.google.com/file/d/1QSvYXxwt937KhwStmqnCJ5sYn5ME9Q81/view?usp=sharing', 
+  resume: 'https://drive.google.com/file/d/1BxK1q68ghxGls6Ohc5XtYIXaKrmakZ8b/view?usp=sharing', 
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  //{
-    //id: nanoid(),
-    //img: 'project.jpg',
-    //title: 'E-Commerce Web Store Project',
-    //info: 'Currently, I am planning on creating an e-Commerce site based off of Amazon using using React and Javascript in the frontend and Commerce.js as a third party API for the backend include features such as product list and details, shopping cart, checking out, and payment using Stripe.',
-    //info2: '',
-    //url: 'https://github.com/jsantana21/E-Commerce-Amazon-Clone-Project',
-  //},
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'E-Commerce Website Project',
+    info: 'I deployed a simple e-Commerce site using NextJS (React) in the frontend and Commerce.js as a third party API for the backend include features such as product list and details, shopping cart, checking out, and order confirmation.',
+    info2: 'A link to the live demo version of the site can be found after clicking on the link to the GitHub repo in the About section. Please do not try to actucally buy a product from the site as I still left in development mode and not set to production.',
+    url: 'https://github.com/jsantana21/e-commerce',
+  },
   {
     id: nanoid(),
     img: 'project1.jpg',
